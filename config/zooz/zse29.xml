@@ -53,7 +53,7 @@ NOTE: All previously recorded activity and custom settings will be erased from t
   <!-- Configuration Parameters -->
   <CommandClass id="112">
     <Value type="byte" genre="config" index="1" label="Basic Set Report Value Sent to Associated Devices" size="1" min="0" max="99" value="99">
-      <Help> Set the value of basic set report sent to the light associated with the sensor in Group 2 (so the light turns on to the selected brightness level). 99 is the equivalent of full brightness in Z-Wave terms.
+      <Help>Set the value of basic set report sent to the light associated with the sensor in Group 2 (so the light turns on to the selected brightness level). 99 is the equivalent of full brightness in Z-Wave terms.
       default: 99
       </Help>
     </Value>
@@ -62,8 +62,8 @@ NOTE: All previously recorded activity and custom settings will be erased from t
       <Item label="Disabled" value="0"/>
       <Item label="Enabled (default)" value="1"/>
     </Value> 
-    <Value type="byte" genre="config" index="3" label="Motion Sensativity" size="1" min="1" max="10" value="10">
-      <Help>Adjust motion sensitivity where 10 is the most sensative setting.
+    <Value type="byte" genre="config" index="3" label="Motion Sensitivity" size="1" min="1" max="10" value="10">
+      <Help>Adjust motion sensitivity where 10 is the most sensitive setting.
       default: 10
       </Help>
     </Value>
@@ -80,7 +80,7 @@ NOTE: All previously recorded activity and custom settings will be erased from t
       </Help>
     </Value>
     <Value type="short" genre="config" index="6" label="Lux Reporting Frequency" size="2" min="1" max="1440" value="30" units="minutes">
-      <Help>Set lux reporting frequency to decide how often the snesor will measure and send brightness level data to the hub and associated devices.
+      <Help>Set lux reporting frequency to decide how often the sensor will measure and send brightness level data to the hub and associated devices.
       default: 30 (minutes)
       </Help>
     </Value>
